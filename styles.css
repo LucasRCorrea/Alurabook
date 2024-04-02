@@ -1,0 +1,25 @@
+@import url("./sytles/header.css");
+@import url("./sytles/banner.css");
+@import url("/sytles/carrosel.css");
+@import url("./sytles/topicos.css");
+@import url("./sytles/contato.css");
+@import url("./sytles/rodape.css");
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-branca: #FFFFFF;
+    --cor-amarelo: #EB9B00;
+    --cor-azul-degrade: #002F52;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --cor-preta: black;
+    --cor-cinza: #858585 ;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
